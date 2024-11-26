@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "EzTabTransfer",
+  "version": "1.0",
+  "description": "Stores open tabs between computers.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["<all_urls>"],
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{8c2d4226-edcf-4142-bf18-e468553c370d}"
+    }
+  },
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/border-48.png",
+      "48": "icons/border-48.png",
+      "128": "icons/border-48.png"
+    }
+  }
+}

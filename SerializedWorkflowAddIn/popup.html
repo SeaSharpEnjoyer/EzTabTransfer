@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Syncer</title>
+  <style>
+    body {
+      width: 600px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      margin-top: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h3>Tab Syncer</h3>
+
+  <!-- Serialize section -->
+  <div>
+    <button id="serialize">Serialize</button>
+    <textarea id="urlString" placeholder="Generated URL string will appear here" readonly></textarea>
+  </div>
+
+  <!-- Deserialize section -->
+  <div>
+    <textarea id="deserializeInput" placeholder="Paste a shared URL string here"></textarea>
+    <button id="deserialize">Deserialize & Open</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
