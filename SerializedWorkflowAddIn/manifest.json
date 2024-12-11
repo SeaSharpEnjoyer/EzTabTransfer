@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "EzTabTransfer",
+  "name": "BasicTabTransfer",
   "version": "1.0",
-  "description": "Stores open tabs between computers.",
+  "description": "Moves tabs between browsers with some copy-paste involved.",
   "permissions": ["tabs", "storage"],
   "host_permissions": ["<all_urls>"],
   
   "browser_specific_settings": {
     "gecko": {
-      "id": "{8c2d4226-edcf-4142-bf18-e468553c370d}"
+      "id": "{8c2d4426-edcf-4142-bf18-e468553c370d}"
     }
   },
   
