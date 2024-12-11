@@ -27,16 +27,11 @@
 <body>
   <h3>Tab Syncer</h3>
 
-  <!-- Serialize section -->
   <div>
     <button id="serialize">Serialize</button>
-    <textarea id="urlString" placeholder="Generated URL string will appear here" readonly></textarea>
-  </div>
-
-  <!-- Deserialize section -->
-  <div>
-    <textarea id="deserializeInput" placeholder="Paste a shared URL string here"></textarea>
-    <button id="deserialize">Deserialize & Open</button>
+    <textarea id="urlString" placeholder="Generated URL string will appear here. Paste a shared URL string here to de-serialize it.">
+	  </textarea>
+	  <button id="deserialize">Deserialize & Open</button>
   </div>
 
   <script src="popup.js"></script>
